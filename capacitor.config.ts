@@ -7,7 +7,7 @@ const config: CapacitorConfig = {
   "server":{
     "androidScheme": "https",
     "url": "http://192.168.1.39:4321",
-    "cleartext": true
+    "cleartext": true,
   }
 };
 

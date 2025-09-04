@@ -59,7 +59,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				TEST
+				Test
 				<div class="hero-image">
 					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
 				</div>
@@ -70,7 +70,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							{
 								updatedDate && (
 									<div class="last-updated-on">
-										Test Last updated on <FormattedDate date={updatedDate} />
+										 Last updated on <FormattedDate date={updatedDate} />
 									</div>
 								)
 							}

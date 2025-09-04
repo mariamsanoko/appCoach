@@ -52,6 +52,31 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.share-button {
+				margin-bottom: 10px;
+				width: 100%;
+				padding: 20px;
+				border-radius: 12px;
+				background-color: black;
+				color: #fff;
+				border: none;
+				cursor: pointer;
+
+			}
+			.camera-button {
+				margin-bottom: 10px;
+				width: 100%;
+				padding: 20px;	
+				border-radius: 12px;
+				background-color: #343737;
+				color: #fff;
+				border: none;
+				cursor: pointer;
+
+
+			}
+
+
 		</style>
 	</head>
 
@@ -59,7 +84,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<Header />
 		<main>
 			<article>
-				Test
+
+				<button class="share-button">
+					Share
+				</button>
+
+				<button class="camera-button">
+					Capture image
+				</button>
+
 				<div class="hero-image">
 					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
 				</div>

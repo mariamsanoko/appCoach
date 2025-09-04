@@ -1,5 +1,6 @@
 import { Camera, CameraResultType, CameraSource } from "@capacitor/camera";
 import { Share } from "@capacitor/share";
+import {  } from "@ionic/pwa-elements/loader";
 
 const share = async () => {
     console.log('share');
